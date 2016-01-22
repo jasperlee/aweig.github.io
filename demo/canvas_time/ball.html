@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title></title>
 </head>
 <body>
 	<canvas id="canvas" style="display:block; margin:50px auto;border:1px solid #000"></canvas>
 
 	<script>
+	//小球的x点，y点，r半径，g加速度，xv水平速度，yv垂直速度，color颜色
 	var ball = {x:550, y:50, r:10, g:2, xv:-10, yv:-10, color:'red'};
 	window.onload = function(){
 		var canvas = document.getElementById('canvas');
