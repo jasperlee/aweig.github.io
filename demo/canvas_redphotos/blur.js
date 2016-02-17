@@ -94,12 +94,16 @@ function reset(){
  */
 var t;
 function show(){
+        var ok = confirm('你确定要看，要给钱才能看喔，你确定要给钱么？');
+        if(!ok){
+            alert('其实不给钱也是可以看的，哈哈！');
+        }
         t = setInterval(function(){
         clippingRegion.r += 20;
         if(clippingRegion.r > 2*Math.max(canvas.width,canvas.height)){
             clearInterval(t);
         }
-        console.log('canvas.width'+canvas.width,'clippingRegion.r '+clippingRegion.r);
+
         draw(image, clippingRegion);
     },30);
 }
