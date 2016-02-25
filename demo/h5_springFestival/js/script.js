@@ -6,6 +6,7 @@ window.onload = function(){
     var page1 = document.getElementById("page1");
     var page2 = document.getElementById("page2");
     var page3 = document.getElementById("page3");
+    var blessing = document.getElementById("blessing"); //用于以后改进
 
     var music = document.getElementById("music");
     var audio = document.getElementsByTagName("audio")[0];
@@ -30,6 +31,7 @@ window.onload = function(){
         }
     },false);
 
+    //点击第一页时，进行翻页
     page1.addEventListener("touchstart", function(e){
         page1.style.display = "none";
         page2.style.display = "block";
@@ -41,6 +43,4 @@ window.onload = function(){
             page3.setAttribute("class", "page fadeIn");
         }, 5500);
     },false);
-
-
 }
