@@ -17,7 +17,7 @@ demo：http://aweig.github.io/demo/h5_springFestival
 h5 Web存储和应用程序缓存的应用实例，离线的新闻阅读器
 
 ###photos_zeptoJs_animateCss
-利用zepto.js和animate.css开发的移动相册
+利用zepto.js和animate.css开发的移动相册，使用chrome手机调试模式显示    
 demo：http://aweig.github.io/demo/photos_zeptoJs_animateCss
 
 ###toolbar_Sass_RequireJs_css3
