@@ -22,7 +22,7 @@ h5 Web存储和应用程序缓存的应用实例，离线的新闻阅读器
 demo：http://aweig.github.io/demo/photos_zeptoJs_animateCss
 
 ###toolbar_Sass_RequireJs_css3
-利用Sass和RequireJs制作工具条  
+利用Sass和RequireJs制作工具条，详细介绍：http://aweig.com/aweiglabs/showcase/199.html  
 Less/Sass编译工具:Koala  
 图标字体库：https://icomoon.io/ 和 http://www.iconfont.cn  
 demo：http://aweig.github.io/demo/toolbar_Sass_RequireJs_css3
