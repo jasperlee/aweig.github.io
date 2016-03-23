@@ -1,5 +1,6 @@
 # aweig.github.io
-h5源码，博客http://aweig.com/
+博客 http://aweig.com/  
+demo站点 http://aweig.github.io/
 
 ###canvas_redphotos
 红包照片，类似微信里红包照片，详细介绍：http://aweig.com/aweiglabs/showcase/136.html  
