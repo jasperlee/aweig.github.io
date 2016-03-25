@@ -29,7 +29,7 @@ demo：http://aweig.github.io/demo/toolbar_Sass_RequireJs_css3
 
 ###php_source/wechat
 微信公众账号基础接口开发实例  
-######扫描或直接搜索“阿伟工作室”关注公众账号
+####扫描或直接搜索“阿伟工作室”关注公众账号
 测试   
 1、可以输入“文本”，“图文/单图文”，“多图文”    
 2、可以发送图片，语音，视频等  
