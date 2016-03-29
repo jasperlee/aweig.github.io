@@ -27,6 +27,11 @@ Less/Sass编译工具:Koala
 图标字体库：https://icomoon.io/ 和 http://www.iconfont.cn  
 demo：http://aweig.github.io/demo/toolbar_Sass_RequireJs_css3
 
+###demo/bootstrap_demo_index,demo/bootstrap_demo_admin
+练习bootstrap框架制作的首页和后台页面  
+首页demo：http://aweig.github.io/demo/bootstrap_demo_index  
+后台demo：http://aweig.github.io/demo/bootstrap_demo_admin  
+
 ###php_source/wechat
 微信公众账号基础接口开发实例  
 ####扫描或直接搜索“阿伟工作室”关注公众账号
@@ -34,4 +39,5 @@ demo：http://aweig.github.io/demo/toolbar_Sass_RequireJs_css3
 1、可以输入“文本”，“图文/单图文”，“多图文”    
 2、可以发送图片，语音，视频等  
 ![阿伟工作室](http://aweig.github.io/php_source/wechat/Awei_Studio.jpg)
+
 
