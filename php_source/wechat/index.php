@@ -1,6 +1,4 @@
 <?php
-
-use Wechat\Wechat;
 require_once 'Wechat.class.php';
 $wechatObj = new Wechat();
 

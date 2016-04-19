@@ -1,8 +1,8 @@
-<?php
+﻿<?php
 /**
  * 微信公众账号开发基础接口
  */
-namespace Wechat;
+
 
 define('TOKEN', 'weixin');
 
@@ -226,7 +226,11 @@ class Wechat{
             );
             $result = $this->transmitMusic($object, $content);
 
-        }
+        }else{			
+            //回复文本消息
+            $content = '输入的内容不能识别，您可以输入“文本”，“图文/单图文”，“多图文”，可以发送图片，语音，视频等';
+            $result = $this->transmitText($object, $content);        
+		}
 
         return $result;
     }
